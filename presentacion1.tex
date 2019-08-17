@@ -1,0 +1,101 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{multicol}
+
+\usetheme{Frankfurt}
+\usecolortheme{whale}
+\usefonttheme{professionalfonts}
+
+
+\begin{document}
+
+\title[Machote]{Machote de Presentaciones}
+
+\subtitle{Subtitulo}
+
+\author[Cristian]{Romero Andrade Cristian}
+
+\institute[UNAM] {
+  Facultad de Ingeniería\\Universidad Nacional Autónoma de México
+}
+
+\frame{\titlepage}
+\frame{\tableofcontents}
+
+\section{Primera Seccion}
+
+\frame{\tableofcontents[currentsection]}
+
+% ------------------------------------------------
+
+\begin{frame}
+  \frametitle{Un título}
+
+  Ejemplo Texto
+
+  \begin{itemize}
+  \item Una lista\pause{}
+  \item Más cosas
+  \end{itemize}
+\end{frame}
+
+\subsection{Sub seccion} %
+
+\begin{frame}{Un Tema}
+  \frametitle{Otro título}
+  \begin{block}{Bloque genérico}
+    Texto simple
+  \end{block}\pause{}
+  
+  \begin{alertblock}{Algo sumamente Importante}
+    Recuerdo de bootstrap
+  \end{alertblock}
+  
+  \begin{examples}
+    \begin{enumerate}
+    \item Ejemplo 1\pause{}
+    \item Ejemplo2
+    \end{enumerate}
+  \end{examples}
+\end{frame}
+
+% ------------------------------------------------
+
+\begin{frame}{Otro Tema}
+  Palabra\pause{}
+  segunda palabra\pause{}
+  Fin
+\end{frame}
+
+
+% ------------------------------------------------
+\section{Segunda Seccion}
+
+\frame{\tableofcontents[currentsection]}
+
+\begin{frame}{Asombrosa Raíz de Dos}
+  
+  \begin{equation*}
+    \sqrt{2}^{-1}
+  \end{equation*}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Título Final}
+  \begin{block}{Fin}
+    \begin{multicols}{2}
+      Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.
+
+
+    \end{multicols}
+
+
+  \end{block}
+\end{frame}
+
+
+
+\end{document}
